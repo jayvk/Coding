@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url('./assets/bg.jpg');
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
+  background-color: #1d1f20 !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 20px !important;
+}
+p, hr{
+  padding:6px !important;
+  margin:0 !important;
+  color: #fff !important;
+}
+i, span{
+  vertical-align: middle !important;
+}
+/* style for input of ng4-geoautocomplete can be changes from here only */
+#search_places{
+  height: 40px !important;
+  border-radius: 5px !important;
+}
